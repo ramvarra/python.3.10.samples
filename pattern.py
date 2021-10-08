@@ -16,7 +16,7 @@ class CenterPoint(Point):
 class Fruit:
     name: str
         
-pts = [Point(10, 50), CenterPoint(10, 20, 30), ThreeDPoint(10, 20, 30), Fruit("apple")]
+pts = [Point(10, 50), CenterPoint(10, 20, 30), ThreeDPoint(10, 20, 30), Fruit("apple"), dict(a=5)]
 
 for pt in pts:
     match pt:
